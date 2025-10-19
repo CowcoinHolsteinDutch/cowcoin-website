@@ -1,93 +1,187 @@
-/* Cowcoin — stylish, playful, responsive */
+/* Cowcoin — professional, accessible, responsive UI */
+
+/* ---------- THEME TOKENS ---------- */
 :root{
   --bg:#0e0f10;
   --panel:#141518;
+  --panel-2:#101114;
+  --line:#23262f;
+  --line-2:#1e2126;
   --text:#eaecef;
+  --text-dim:#cfd3db;
   --muted:#a2a6ad;
+
   --brand:#7df59a;
   --accent:#b57bff;
   --pink:#ff7aa2;
+
   --ring: rgba(125,245,154,.35);
+
+  --shadow-1: 0 6px 18px rgba(0,0,0,.28);
+  --shadow-2: 0 10px 30px rgba(0,0,0,.35);
+
+  --radius-lg: 18px;
+  --radius-md: 12px;
+  --radius-sm: 10px;
+
+  --sp-1: 6px;  --sp-2: 10px; --sp-3: 14px; --sp-4: 20px;
+  --sp-5: 24px; --sp-6: 32px; --sp-7: 48px; --sp-8: 64px;
+
+  --focus: 0 0 0 4px rgba(181,123,255,.28);
 }
 
 *{box-sizing:border-box}
-html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
 
+/* Better text rendering */
+body{
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  text-rendering:optimizeLegibility;
+  line-height:1.45;
+}
+
+/* ---------- A11Y BASES ---------- */
+:focus-visible{outline:none; box-shadow:var(--focus); border-radius:10px}
+a:focus-visible, button:focus-visible{outline:none; box-shadow:var(--focus)}
+@media (prefers-reduced-motion: no-preference){
+  :root{scroll-behavior:smooth}
+}
+
+/* ---------- DECOR ---------- */
 .noise{
   position:fixed;inset:0;pointer-events:none;
   background-image: radial-gradient(transparent 60%, rgba(181,123,255,.07)),
-    linear-gradient(transparent,transparent);
-  opacity:.6;mix-blend-mode:overlay;
+                   linear-gradient(transparent,transparent);
+  opacity:.5;mix-blend-mode:overlay;
 }
 
-.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 var(--sp-4)}
 
+/* ---------- HEADER ---------- */
 .site-header{
-  position:sticky;top:0;backdrop-filter:blur(8px);
-  background:linear-gradient(to bottom, rgba(14,15,16,.8), rgba(14,15,16,.35));
-  border-bottom:1px solid #1e2126; z-index:10
+  position:sticky;top:0;z-index:1000;
+  backdrop-filter:blur(8px);
+  background:linear-gradient(to bottom, rgba(14,15,16,.86), rgba(14,15,16,.46));
+  border-bottom:1px solid var(--line-2);
 }
-.site-header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 20px}
+.site-header .wrap{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:var(--sp-4);padding:14px var(--sp-4)
+}
 .brand{display:flex;align-items:center;gap:10px;font-weight:800}
 .brand .name{font-family:"Changa One", system-ui; letter-spacing:.2px}
-nav a{color:var(--text);text-decoration:none;margin:0 10px;opacity:.9}
-nav a:hover{opacity:1}
-.pill{padding:.4rem .7rem;border:1px solid #2a2d34;border-radius:999px}
+
+nav{display:flex;flex-wrap:wrap;gap:8px}
+nav a{
+  color:var(--text);text-decoration:none;padding:.45rem .6rem;border-radius:10px;
+  opacity:.92; font-weight:600
+}
+nav a:hover{opacity:1; background:rgba(255,255,255,.04)}
+nav a.is-active{background:rgba(181,123,255,.14); border:1px solid #2b2d36}
+
+/* ---------- BUTTONS ---------- */
 .btn,.pill,button{
-  background:var(--brand);color:#0b0c0d;border:none;border-radius:12px;
+  background:var(--brand);color:#0b0c0d;border:none;border-radius:var(--radius-md);
   padding:.9rem 1.1rem;font-weight:800;text-decoration:none;display:inline-flex;gap:.5rem;align-items:center;
   box-shadow:0 0 0 0 var(--ring); transition:transform .12s ease, box-shadow .2s ease, opacity .2s ease
 }
 .btn:hover{transform:translateY(-1px); box-shadow:0 0 0 6px var(--ring)}
+.btn:active{transform:translateY(0)}
 .btn.ghost{background:transparent;color:var(--text);border:1px solid #2a2d34}
-.ghost{background:transparent;color:var(--text);border:1px solid #2a2d34;border-radius:12px;padding:.6rem .8rem}
+.ghost{background:transparent;color:var(--text);border:1px solid #2a2d34;border-radius:var(--radius-md);padding:.6rem .8rem}
 
-.hero{padding:72px 0;background:
-  radial-gradient(1200px 400px at 70% -10%, rgba(181,123,255,.25), transparent),
-  radial-gradient(1000px 300px at 0% 0%, rgba(125,245,154,.2), transparent);}
-.hero h1{font-size:clamp(2.2rem, 2.4rem + 1vw, 3.2rem); line-height:1.05;margin:0 0 16px;font-family:"Changa One", system-ui}
-.lead{font-size:1.12rem;color:#e6e7eb;opacity:.95;max-width:50ch}
-.badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
-.tag{border:1px solid #252831;border-radius:999px;padding:.35rem .7rem;color:#cfd3db;font-weight:700; font-size:.85rem}
-
-.grid2{display:grid;grid-template-columns:1.05fr .95fr;gap:24px}
-@media (max-width: 880px){.grid2{grid-template-columns:1fr;}} 
-
-.card{
-  background:linear-gradient(180deg, #17181c, #121317);
-  border:1px solid #2a2d34;border-radius:18px;padding:20px;box-shadow:0 10px 30px rgba(0,0,0,.25)
+/* ---------- HERO ---------- */
+.hero{
+  padding:var(--sp-8) 0;
+  background:
+    radial-gradient(1200px 400px at 70% -10%, rgba(181,123,255,.24), transparent),
+    radial-gradient(1000px 300px at 0% 0%, rgba(125,245,154,.18), transparent);
 }
-.hero-card h3{margin:0 0 6px}
-.stats{list-style:none;padding:0;margin:10px 0 10px;display:grid;gap:10px}
-.stats li{display:flex;align-items:center;justify-content:space-between;background:#101114;border:1px solid #23262f;border-radius:12px;padding:10px 14px}
+.hero h1{
+  font-size:clamp(2.2rem, 2.3rem + 1.2vw, 3.25rem);
+  line-height:1.05;margin:0 0 var(--sp-3);
+  font-family:"Changa One", system-ui
+}
+.lead{font-size:1.12rem;color:#e6e7eb;opacity:.95;max-width:60ch}
+.badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:var(--sp-3)}
+.tag{
+  border:1px solid #252831;border-radius:999px;padding:.35rem .7rem;
+  color:var(--text-dim);font-weight:700; font-size:.85rem
+}
+
+.grid2{display:grid;grid-template-columns:1.05fr .95fr;gap:var(--sp-5)}
+@media (max-width: 900px){.grid2{grid-template-columns:1fr;}}
+
+/* ---------- CARDS ---------- */
+.card{
+  background:linear-gradient(180deg, var(--panel), var(--panel-2));
+  border:1px solid var(--line);border-radius:var(--radius-lg);padding:var(--sp-4);
+  box-shadow:var(--shadow-2)
+}
+.hero-card h3{margin:0 0 var(--sp-2)}
+.stats{list-style:none;padding:0;margin:var(--sp-2) 0 var(--sp-2);display:grid;gap:10px}
+.stats li{
+  display:flex;align-items:center;justify-content:space-between;
+  background:var(--panel-2);border:1px solid var(--line);border-radius:var(--radius-md);padding:10px 14px
+}
 .stats span{color:var(--muted)}
 .copyline{display:flex;gap:8px;margin-top:10px}
-.copyline input{flex:1;background:#0e0f12;color:#cfd3db;border:1px solid #2a2d34;border-radius:10px;padding:.65rem .8rem}
+.copyline input{
+  flex:1;background:#0e0f12;color:var(--text-dim);border:1px solid var(--line);border-radius:10px;padding:.65rem .8rem
+}
 .tiny{padding:.5rem .7rem;font-size:.9rem}
 
-.section{padding:64px 0}
-.section h2{font-family:"Changa One"; letter-spacing:.2px;margin:0 0 8px}
-.moo-list{padding-left:18px}
-.check{list-style:none;padding-left:0}
-.check li{padding-left:26px; position:relative; margin:10px 0}
-.check li::before{content:"✓"; position:absolute; left:0; color:var(--brand); font-weight:900}
+/* ---------- SECTIONS ---------- */
+.section{padding:var(--sp-8) 0}
+.section h2{
+  font-family:"Changa One"; letter-spacing:.2px;margin:0 0 8px
+}
+.muted{color:var(--muted)}
+.accent{color:var(--accent)}
 
-.tok-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}
-.tok{background:#101114;border:1px solid #23262f;border-radius:12px;padding:14px}
+/* Tokenomics grid */
+.tok-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px
+}
+.tok{
+  background:var(--panel-2);border:1px solid var(--line);border-radius:var(--radius-md);padding:14px
+}
 .tok span{display:block;color:var(--muted);font-size:.9rem}
 .tok b{font-size:1.2rem}
+@media (max-width:720px){.tok-grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:520px){.tok-grid{grid-template-columns:1fr}}
 
+/* Roadmap (if used later) */
 .road{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
-.step{background:#101114;border:1px solid #23262f;border-radius:14px;padding:16px}
+.step{background:var(--panel-2);border:1px solid var(--line);border-radius:14px;padding:16px}
 .step h4{margin:0 0 6px}
 @media (max-width:960px){.road{grid-template-columns:repeat(2,1fr)}}
 @media (max-width:560px){.road{grid-template-columns:1fr}}
 
-.steps{padding-left:20px}
+/* Links */
 .links{list-style:none;padding:0;margin:0}
 .links li{margin:8px 0}
-.links a{color:#cfd3db}
+.links a{color:var(--text-dim);text-decoration:none}
+.links a:hover{color:var(--text)}
 
-.site-footer{border-top:1px solid #1e2126;padding:26px 0;background:#0c0d0f;color:#a9adb5;font-size:.95rem}
-.accent{color:var(--accent)}
-.muted{color:var(--muted)}
+/* ---------- FOOTER ---------- */
+.site-footer{
+  border-top:1px solid var(--line-2);padding:26px 0;background:#0c0d0f;
+  color:#a9adb5;font-size:.95rem
+}
+
+/* ---------- TOAST ---------- */
+.toast{
+  position:fixed;left:50%;bottom:22px;transform:translateX(-50%) translateY(20px);
+  background:#0f1215;border:1px solid var(--line);color:var(--text);
+  padding:10px 14px;border-radius:12px;box-shadow:var(--shadow-1);
+  opacity:0;pointer-events:none;transition:opacity .2s ease, transform .2s ease;
+  z-index:9999; font-weight:700
+}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.toast b{color:var(--brand)}
+
+/* ---------- REVEAL (on-scroll polish) ---------- */
+.reveal{opacity:0; transform:translateY(10px); transition:opacity .5s ease, transform .5s ease}
+.reveal.in{opacity:1; transform:translateY(0)}

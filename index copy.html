@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cowcoin — The Power of the Herd 🐮</title>
+  <meta name="description" content="Cowcoin ($Cowcoin) — a fun, community-first memecoin on XRPL. Join the herd. Moo together.">
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="site-header">
+    <div class="wrap">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">
+          <svg viewBox="0 0 120 120" width="36" height="36" role="img" aria-label="Cow logo">
+            <circle cx="60" cy="60" r="58" fill="#ffffff" stroke="#121212" stroke-width="4"/>
+            <circle cx="42" cy="50" r="10" fill="#121212"/>
+            <circle cx="78" cy="50" r="10" fill="#121212"/>
+            <ellipse cx="60" cy="82" rx="22" ry="16" fill="#ff7aa2" stroke="#121212" stroke-width="4"/>
+            <circle cx="50" cy="78" r="4" fill="#ffffff"/>
+            <circle cx="70" cy="78" r="4" fill="#ffffff"/>
+            <path d="M22,35 Q60,8 98,35" stroke="#121212" stroke-width="6" fill="none" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <span class="name">$Cowcoin</span>
+      </div>
+      <nav aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#tokenomics">Tokenomics</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#howto">How to Buy</a>
+        <a href="#community" class="pill">Join</a>
+        <a href="#whitepaper">Whitepaper</a>
+      </nav>
+      <button id="themeToggle" class="ghost" aria-label="Toggle theme">🌓</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap grid2">
+        <div>
+          <h1><span class="accent">Cowcoin</span> — The Power of the Herd 🐮</h1>
+          <p class="lead">We’re building the funniest, friendliest herd on <strong>XRPL</strong> — fair launch, real vibes, and long-term growth. No presale. No airdrop. Just pure moomentum.</p>
+          <div class="cta-row">
+            <a class="btn" href="#community">Join the Herd</a>
+            <a class="btn ghost" href="#tokenomics" aria-label="Skip to tokenomics">View Tokenomics</a>
+          </div>
+          <div class="badges">
+            <span class="tag">Ticker: <b>$Cowcoin</b></span>
+            <span class="tag">Chain: XRPL</span>
+            <span class="tag">Supply: 1.362M</span>
+          </div>
+        </div>
+        <div class="card hero-card">
+          <h3>Moo Stats</h3>
+          <ul class="stats">
+            <li><span>Total Supply</span><b>1,362,000</b></li>
+            <li><span>Circulating</span><b>752,100</b></li>
+            <li><span>LP Pairs</span><b>$Cowcoin/XRP · $Cowcoin/PHNIX · $Cowcoin/XPM · $Cowcoin/RLUSD</b></li>
+          </ul>
+          <div class="copyline">
+            <input id="ca" value="Contract: rsUG72j1ABkLpqM5UHox9GL3tpAaNpE3a6" readonly aria-label="Contract address">
+            <button class="btn tiny" data-copy="#ca">Copy</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="tokenomics">
+      <div class="wrap grid2">
+        <div>
+          <h2>Tokenomics</h2>
+          <p>Simple, lean, and easy to understand — because cows don’t like complicated paperwork.</p>
+          <div class="tok-grid">
+            <div class="tok"><span>Max Supply</span><b>1,362,000</b></div>
+            <div class="tok"><span>Circulating</span><b>752,100</b></div>
+            <div class="tok"><span>Taxes</span><b>0% buy / 0% sell</b></div>
+            <div class="tok"><span>Presale</span><b>None</b></div>
+            <div class="tok"><span>Airdrop</span><b>None</b></div>
+            <div class="tok"><span>LP Lock</span><b>Target 6 months (extend)</b></div>
+            <div class="tok"><span>Burn Program</span><b>Milestone burns</b></div>
+            <div class="tok"><span>XPMarket</span><b><a href="https://xpmarket.com/token/Cowcoin-rsUG72j1ABkLpqM5UHox9GL3tpAaNpE3a6" target="_blank" rel="noopener noreferrer">View token</a></b></div>
+          </div>
+          <p class="muted">Burn plan: 1% at 1,000 holders; +0.5% at $250k volume; +1% at $500k; event burns for listings/partnerships.</p>
+        </div>
+        <div class="card">
+          <h3>Quick Links</h3>
+          <ul class="links">
+            <li><a href="https://xpmarket.com/token/Cowcoin-rsUG72j1ABkLpqM5UHox9GL3tpAaNpE3a6" target="_blank" rel="noopener noreferrer">XPMarket (live)</a></li>
+            <!-- Use a clean alias for the PDF file if you can rename it to avoid URL-encoding headaches -->
+            <li><a href="Cowcoin_Whitepaper_2026.pdf" target="_blank" rel="noopener noreferrer">📄 Whitepaper 2026 (PDF)</a></li>
+            <li><a href="https://bithomp.com/explorer/rsUG72j1ABkLpqM5UHox9GL3tpAaNpE3a6" target="_blank" rel="noopener noreferrer">Bithomp Explorer</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="whitepaper">
+      <div class="wrap">
+        <h2>Whitepaper 2026</h2>
+
+        <!-- If you can't rename the file on disk, replace the src below with the URL-encoded path of your uploaded PDF -->
+        <iframe
+          src="Cowcoin_Whitepaper_2026.pdf"
+          width="100%" height="800"
+          style="border:none;border-radius:12px"></iframe>
+
+        <p>
+          <a class="btn" href="Cowcoin_Whitepaper_2026.pdf" target="_blank" rel="noopener noreferrer">Download PDF</a>
+        </p>
+        <p class="muted">Updated supplies and roadmap per Whitepaper 2026.</p>
+      </div>
+    </section>
+
+    <section class="section" id="community">
+      <div class="wrap grid2">
+        <div>
+          <h2>Join the Herd</h2>
+          <p>Helpful mods, zero drama, and memes so fresh they still smell like grass.</p>
+          <div class="cta-row">
+            <a class="btn" href="https://t.me/+5AQnDaujDNRiZWI0" target="_blank" rel="noopener noreferrer">Telegram</a>
+            <a class="btn ghost" href="https://x.com/holsteincowcoin?s=21&t=Wn3zcCsNagPSxE_PVWqCEQ" target="_blank" rel="noopener noreferrer">X (Twitter)</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>© <span id="year"></span> Cowcoin — Built by the Herd. All moos reserved.</p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
