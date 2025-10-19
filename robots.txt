@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cowcoin.github.io/cowcoin-website/sitemap.xml
