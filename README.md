@@ -14,7 +14,7 @@ Cowcoin is a transparent, utility-focused token on XRPL with a deflationary mode
 - **XPMarket:** https://xpmarket.com/token/Cowcoin-rsUG72j1ABkLpqM5UHox9GL3tpAaNpE3a6
 - **Bithomp Explorer:** https://bithomp.com/explorer/rsUG72j1ABkLpqM5UHox9GL3tpAaNpE3a6
 - **Telegram:** https://t.me/CowcoinHerd
-- **Official Site (promo):** https://cowcoin.github.io
+- **Official Site (promo):** [https://cowcoin.github.io](https://cowcoinholsteindutch.github.io/cowcoin-website/)
 
 > Always verify the contract address before trading.
 
