@@ -1,4 +1,5 @@
-# Cowcoin — XRPL | Investor Highlights, Utility & Roadmap
+# Cowcoin — XRPL | Investor Highlights, Utility & Roadmap  
+[![Follow on X](https://img.shields.io/badge/Follow%20on%20X-%40HolsteinCowcoin-black?logo=x&style=for-the-badge)](https://x.com/HolsteinCowcoin)
 
 **Ticker:** `Cowcoin`  
 **Network:** XRP Ledger (XRPL)  
@@ -11,10 +12,13 @@ Cowcoin is a transparent, utility-focused token on XRPL with a deflationary mode
 ## 🔎 Quick Links
 - **Website (GitHub Pages):** `index.html` (in this repo)  
 - **Whitepaper (PDF):** [`Cowcoin_Whitepaper_2026.pdf`](./Cowcoin_Whitepaper_2026.pdf)
-- **XPMarket:** https://xpmarket.com/token/Cowcoin-rsUG72j1ABkLpqM5UHox9GL3tpAaNpE3a6
-- **Bithomp Explorer:** https://bithomp.com/explorer/rsUG72j1ABkLpqM5UHox9GL3tpAaNpE3a6
-- **Telegram:** https://t.me/CowcoinHerd
-- **Official Site (promo):** [https://cowcoin.github.io](https://cowcoinholsteindutch.github.io/cowcoin-website/)
+- **Audit Report (PDF):** [`Cowcoin XRPL Audit Report.pdf`](./Cowcoin%20XRPL%20Audit%20Report.pdf)
+- **Audit Certificate:** [`IMG_8211.jpg`](./IMG_8211.jpg)
+- **XPMarket:** https://xpmarket.com/token/Cowcoin-rsUG72j1ABkLpqM5UHox9GL3tpAaNpE3a6  
+- **Bithomp Explorer:** https://bithomp.com/explorer/rsUG72j1ABkLpqM5UHox9GL3tpAaNpE3a6  
+- **Telegram:** https://t.me/CowcoinHerd  
+- **X (Twitter):** https://x.com/HolsteinCowcoin  
+- **Official Site (promo):** https://cowcoinholsteindutch.github.io/cowcoin-website/
 
 > Always verify the contract address before trading.
 
