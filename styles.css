@@ -185,3 +185,51 @@ nav a.is-active{background:rgba(181,123,255,.14); border:1px solid #2b2d36}
 /* ---------- REVEAL (on-scroll polish) ---------- */
 .reveal{opacity:0; transform:translateY(10px); transition:opacity .5s ease, transform .5s ease}
 .reveal.in{opacity:1; transform:translateY(0)}
+
+/* --- Investor additions --- */
+.bullets{margin:12px 0 0 0; padding-left:18px}
+.bullets li{margin:10px 0}
+.alloc{list-style:none; padding:0; margin:0; display:grid; gap:10px}
+.alloc li{display:flex; align-items:center; justify-content:space-between; background:var(--panel-2); border:1px solid var(--line); border-radius:var(--radius-md); padding:12px 14px}
+.alloc span{color:var(--muted)}
+.pairs{list-style:disc; margin:10px 0 0 18px; padding:0}
+.steps{margin:12px 0 0 18px}
+.steps li{margin:10px 0}
+
+
+
+/* === CowcoinWear Premium Section === */
+.cowcoinwear-section {
+  background: linear-gradient(135deg, #000000, #1a1a1a 40%, #b8860b 120%);
+  color: #f0e6cc;
+  text-align: center;
+  padding: 80px 20px;
+  border-radius: 2rem;
+  box-shadow: 0 0 30px rgba(184,134,11,0.4);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.cowcoinwear-section .muted {
+  color: #ded7bf;
+}
+.gold-title {
+  color: #ffd700;
+  text-shadow: 0 0 10px rgba(255,215,0,0.8);
+}
+.btn.gold {
+  background: #ffd700;
+  color: #000;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+.btn.gold:hover {
+  background: #fff5b7;
+  transform: scale(1.05);
+}
+.btn.ghost.gold-border {
+  border: 2px solid #ffd700;
+  color: #ffd700;
+}
+.btn.ghost.gold-border:hover {
+  background: rgba(255,215,0,0.1);
+}
