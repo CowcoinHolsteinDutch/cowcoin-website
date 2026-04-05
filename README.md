@@ -12,15 +12,11 @@ Cowcoin is a transparent, utility-focused token on XRPL with a deflationary mode
 ## 🔎 Quick Links
 - **Website (GitHub Pages):** `index.html` (in this repo)  
 - **Whitepaper (PDF):** [`Cowcoin_Whitepaper_2026.pdf`](./Cowcoin_Whitepaper_2026.pdf)
-- **Audit Report (PDF):** [`Cowcoin XRPL Audit Report.pdf`](./Cowcoin%20XRPL%20Audit%20Report.pdf)
-- **Audit Certificate:** [`IMG_8211.jpg`](./IMG_8211.jpg)
 - **XPMarket:** https://xpmarket.com/token/Cowcoin-rsUG72j1ABkLpqM5UHox9GL3tpAaNpE3a6  
 - **Bithomp Explorer:** https://bithomp.com/explorer/rsUG72j1ABkLpqM5UHox9GL3tpAaNpE3a6  
 - **Telegram:** https://t.me/CowcoinHerd  
 - **X (Twitter):** https://x.com/HolsteinCowcoin  
 - **Official Site (promo):** https://cowcoinholsteindutch.github.io/cowcoin-website/
-
-> Always verify the contract address before trading.
 
 ---
 
@@ -29,15 +25,15 @@ Cowcoin is a transparent, utility-focused token on XRPL with a deflationary mode
 - **50% Reinvestment:** Half of profits reinvested into liquidity, burns, marketing & development.
 - **Deflationary Supply:** Ongoing burn program (milestone + strategic event burns).
 - **Growing Liquidity:** Multi‑pair LPs including **Cowcoin/USDC** and **Cowcoin/XRP**.
-- **Credibility Roadmap:** XPMarket verification (target Q1 2026) and third‑party audit in 2026.
+- **Multi-Chain Vision:** Solana launching soon alongside Cowcoin’s XRPL presence.
 
 ---
 
 ## 🪙 Tokenomics (aligned with Whitepaper 2026)
 | Metric | Value |
 |---|---|
-| **Total Supply** | 1,362,000 |
-| **Circulating** | 752,100 (latest update) |
+| **Total Supply** | 1.2M |
+| **Circulating** | 749k |
 | **Buy/Sell Tax** | 0% / 0% |
 | **Presale** | None |
 | **Airdrop** | Community events only |
@@ -75,15 +71,16 @@ Cowcoin is a transparent, utility-focused token on XRPL with a deflationary mode
 ---
 
 ## 🗺️ Roadmap (2026)
-- **Q1 2026:** Finalize merch, logistics, XPMarket blue‑check verification push, pre‑marketing.  
-- **Mid‑March 2026:** Launch **#CowcoinWear**; begin 50% reinvestment cycle.  
-- **Q2–Q4 2026:** Increase burns, deepen liquidity, explore NFTs, staking prototypes, partnerships.  
+- **Now:** Strengthen branding, hype, and social reach.
+- **Next:** **Solana launch coming soon**.
+- **Soon after:** **Animated Cowcoin Series** launch for viral growth and ecosystem visibility.
+- **Ongoing:** Grow #CowcoinWear, burns, liquidity, and community reach.
 
 ---
 
 ## 🔐 Security & Trust
 - Built on **XRPL** (fast, low‑fee, battle‑tested).  
-- Third‑party audit planned for **2026**.  
+- Solana expansion is featured as the next upcoming growth phase.  
 - Contract & supply verifiable on **Bithomp** and **XPMarket**.
 
 ---

@@ -233,3 +233,35 @@ nav a.is-active{background:rgba(181,123,255,.14); border:1px solid #2b2d36}
 .btn.ghost.gold-border:hover {
   background: rgba(255,215,0,0.1);
 }
+
+
+
+.hero-grid{align-items:center}
+.hero-kicker{
+  display:inline-block;
+  margin-bottom:12px;
+  padding:8px 14px;
+  border:1px solid rgba(255,255,255,.12);
+  border-radius:999px;
+  color:#ffd2e8;
+  font-weight:800;
+  letter-spacing:.03em;
+  text-transform:uppercase;
+  font-size:.8rem;
+  background:rgba(255,255,255,.04);
+}
+.hero-visual{display:grid;gap:18px}
+.hero-banner,.series-image{
+  width:100%;
+  border-radius:22px;
+  border:1px solid rgba(255,255,255,.08);
+  box-shadow:0 0 40px rgba(255,0,136,.22);
+}
+.series-section{
+  background:
+    radial-gradient(1000px 300px at 100% 0%, rgba(255,0,136,.16), transparent),
+    radial-gradient(700px 250px at 0% 100%, rgba(181,123,255,.12), transparent);
+}
+.series-card{display:grid;gap:14px}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:18px}
+.tag b{color:#fff}
