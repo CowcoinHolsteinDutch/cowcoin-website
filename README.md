@@ -12,11 +12,15 @@ Cowcoin is a transparent, utility-focused token on XRPL with a deflationary mode
 ## 🔎 Quick Links
 - **Website (GitHub Pages):** `index.html` (in this repo)  
 - **Whitepaper (PDF):** [`Cowcoin_Whitepaper_2026.pdf`](./Cowcoin_Whitepaper_2026.pdf)
+- **Audit Report (PDF):** [`Cowcoin XRPL Audit Report.pdf`](./Cowcoin%20XRPL%20Audit%20Report.pdf)
+- **Audit Certificate:** [`IMG_8211.jpg`](./IMG_8211.jpg)
 - **XPMarket:** https://xpmarket.com/token/Cowcoin-rsUG72j1ABkLpqM5UHox9GL3tpAaNpE3a6  
 - **Bithomp Explorer:** https://bithomp.com/explorer/rsUG72j1ABkLpqM5UHox9GL3tpAaNpE3a6  
 - **Telegram:** https://t.me/CowcoinHerd  
 - **X (Twitter):** https://x.com/HolsteinCowcoin  
 - **Official Site (promo):** https://cowcoinholsteindutch.github.io/cowcoin-website/
+
+> Always verify the contract address before trading.
 
 ---
 
@@ -25,15 +29,15 @@ Cowcoin is a transparent, utility-focused token on XRPL with a deflationary mode
 - **50% Reinvestment:** Half of profits reinvested into liquidity, burns, marketing & development.
 - **Deflationary Supply:** Ongoing burn program (milestone + strategic event burns).
 - **Growing Liquidity:** Multi‑pair LPs including **Cowcoin/USDC** and **Cowcoin/XRP**.
-- **Multi-Chain Vision:** Solana launching soon alongside Cowcoin’s XRPL presence.
+- **Credibility Roadmap:** XPMarket verification (target Q1 2026) and Solana launch coming soon and animated Cowcoin series launching soon.
 
 ---
 
 ## 🪙 Tokenomics (aligned with Whitepaper 2026)
 | Metric | Value |
 |---|---|
-| **Total Supply** | 1.2M |
-| **Circulating** | 749k |
+| **Total Supply** | 1,200,000 |
+| **Circulating** | 749,000 (latest update) |
 | **Buy/Sell Tax** | 0% / 0% |
 | **Presale** | None |
 | **Airdrop** | Community events only |
@@ -71,19 +75,24 @@ Cowcoin is a transparent, utility-focused token on XRPL with a deflationary mode
 ---
 
 ## 🗺️ Roadmap (2026)
-- **Now:** Strengthen branding, hype, and social reach.
-- **Next:** **Solana launch coming soon**.
-- **Soon after:** **Animated Cowcoin Series** launch for viral growth and ecosystem visibility.
-- **Ongoing:** Grow #CowcoinWear, burns, liquidity, and community reach.
+- **Q1 2026:** Finalize merch, logistics, XPMarket blue‑check verification push, pre‑marketing.  
+- **Mid‑March 2026:** Launch **#CowcoinWear**; begin 50% reinvestment cycle.  
+- **Q2–Q4 2026:** Increase burns, deepen liquidity, explore NFTs, staking prototypes, partnerships.  
 
 ---
 
 ## 🔐 Security & Trust
 - Built on **XRPL** (fast, low‑fee, battle‑tested).  
-- Solana expansion is featured as the next upcoming growth phase.  
+- Third‑party audit planned for **2026**.  
 - Contract & supply verifiable on **Bithomp** and **XPMarket**.
 
 ---
 
 ## ⚠️ Disclaimer
 Crypto involves risk. Nothing here is financial advice. Plans may change with market and regulatory conditions. Always DYOR.
+
+
+## Latest website refresh
+- Hero image resized and optimized for a cleaner landing page
+- Merch launch timing changed to **soon**
+- Animated series added
